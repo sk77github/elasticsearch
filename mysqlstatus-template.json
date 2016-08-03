@@ -1,5 +1,5 @@
 {
-    "template" : "logstash-*", #这里一定要以logstash开头吗
+    "template" : "logstash-*", #这里一定要以logstash开头吗？与logstash conf里 es做为output时的索引名进行匹配（ template pattern of logstash*. The settings and mappings will be applied to any index name that matches the logstash* template.）
     "settings" : {
       "index.refresh_interval" : "5s"
     },
