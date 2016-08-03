@@ -1,5 +1,5 @@
 {
-    "template" : "logstash-*",
+    "template" : "logstash-*", #这里一定要以logstash开头吗
     "settings" : {
       "index.refresh_interval" : "5s"
     },
