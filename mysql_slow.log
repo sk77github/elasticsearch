@@ -1,0 +1,31 @@
+# Time: 160524 14:19:01
+# User@Host: ermasdb_r[ermasdb_r] @  [10.54.73.82]  Id: 182295
+# Query_time: 2.463791  Lock_time: 0.000026 Rows_sent: 0  Rows_examined: 1008586
+use ermasdb;
+SET timestamp=1464070741;
+select * from info WHERE REPAY_TIME >= '2016-01-01 00:00:00';
+# Time: 160524 20:20:42
+# User@Host: steven_select[steven_select] @  [100.76.254.55]  Id: 183646
+# Query_time: 7.459011  Lock_time: 0.000090 Rows_sent: 46  Rows_examined: 6309960
+SET timestamp=1464092442;
+select * from rec where type = '电话催收';
+# Time: 160525  8:00:14
+# User@Host: ermasdb_r[ermasdb_r] @  [10.54.73.82]  Id: 186247
+# Query_time: 2.488839  Lock_time: 0.000035 Rows_sent: 0  Rows_examined: 1008586
+SET timestamp=1464134414;
+select * from info WHERE REPAY_TIME >= '2016-01-01 00:00:00';
+# Time: 160525  8:00:14
+# User@Host: ermasdb_r[ermasdb_r] @  [10.54.73.82]  Id: 186247
+# Query_time: 2.488839  Lock_time: 0.000035 Rows_sent: 0  Rows_examined: 1008586
+SET timestamp=1464134414;
+select * from info WHERE REPAY_TIME >= '2016-01-01 00:00:00';
+# Time: 160525 12:46:18
+# User@Host: root[root] @  [127.0.0.1]  Id: 187315
+# Query_time: 2.831914  Lock_time: 0.000062 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464151578;
+checksum table bak;
+# Time: 160525 12:46:28
+# User@Host: root[root] @  [127.0.0.1]  Id: 187315
+# Query_time: 2.802555  Lock_time: 0.000031 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1464151588;
+checksum table bak;
